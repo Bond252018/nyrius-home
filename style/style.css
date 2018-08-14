@@ -1,132 +1,161 @@
-* {
-    margin: 0px;
-    padding: 0px;
+@font-face {
+    font-family: GothamProMedium;
+    src: url('../fonts/GothamProMedium.eot');
+    src: url('../fonts/GothamProMedium.eot') format('embedded-opentype'),
+    url('../fonts/GothamProMedium.woff2') format('woff2'),
+    url('../fonts/GothamProMedium.woff') format('woff'),
+    url('../fonts/GothamProMedium.ttf') format('truetype'),
+    url('../fonts/GothamProMedium.svg#GothamProMedium') format('svg');
 }
 
-.clearfix:after {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url('../images/bg.png');
+    background-size: cover;
+
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding-top: 32px;
+    padding-bottom: 34px;
+    border-top: 4px solid blue;
+}
+
+.right-header-block {
+    float: right;
+
+}
+
+.menu {
+    float: right;
+
+}
+
+.sales {
+    font-family: GothamProMedium;
+    text-transform: uppercase;
+    float: right;
+    color: #ababab;
+    background: #303030;
+    padding: 8px 0 8px 10px;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.menu ul {
+    font-family: GothamProMedium;
+    padding-top: 15px;
+}
+
+.menu a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 35px;
+
+}
+
+.shopping-card i {
+    color: #05abda;
+    margin-left: 15px;
+}
+
+.shopping-card {
+    float: right;
+    padding-top: 15px;
+    margin-left: 25px;
+
+}
+
+form {
+    float: right;
+    margin-top: 7px;
+}
+
+.form-search {
+    position: relative;
+}
+
+.search {
+    font-family: GothamProMedium;
+    background: #000;
+    color: #757575;
+    height: 28px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.right-header-block:after {
     content: "";
     display: block;
     clear: both;
 }
 
-header {
-    background: #af2024;
-    height: 40px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../images/bg.png);
-    background-size: cover;
-}
-
-.container {
-    max-width: 960px;
-    margin: auto;
-}
-
-img {
-    border-right: 5px solid #000;
-    background: #af2024;
-    margin: 35px 0 35px 0;
-}
-
-.social {
-    display: block;
-    position: fixed;
-    top: 262px;
-    right: 0;
-    list-style: none;
-}
-
-.social i {
-    height: 49px;
-    width: 50px;
-    line-height: 49px;
-}
-
-.social a {
-    display: block;
-}
-
-.social a i {
-    font-size: 50px;
-    text-align: center;
-}
-
-.fb {
-    color: green;
-    background: #850409;
-}
-
-.tw {
-    color: greenyellow;
-    background: #98161b;
-}
-
-.blog {
+.connect {
     position: relative;
-    top: 70px;
-    left: 140px;
-    max-width: 710px;
 
 }
 
-h1 {
-    color: greenyellow;
-    background: #98161b;
-    height: 70px;
-}
-
-.video-content {
-
-    height: 750px;
-    background: #fff;
-}
-
-.video {
+.connecting {
+    display: inline-block;
     position: absolute;
-    top: 165px;
-    left: 75px;
-    width: 560px;
-    height: 346px;
-    background: #e7e7e7;
-
+    bottom: 20px;
+    left: 20px;
+    background: #1883b5;
+    padding: 21px 56px 20px 20px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
 }
 
-.play {
-    display: block;
-    font-size: 55px;
-    text-align: center;
-    padding-top: 150px;
-    color: #98161b;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    color: #98161b;
+.btn-search {
     position: absolute;
-    top: 580px;
-    left: 0;
-    padding-left: 77px;
+    top: 8px;
+    right: 10px;
+    border: none;
+    background: none;
+    color: #fff;
 }
 
-.foot-top {
-    background: #3f0002;
-    height: 33px;
+.owl-dots {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-footer {
-    background: #000000;
-    height: 454px;
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+    display: inline-block;
+    background: red;
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
 }
 
-span {
-    text-decoration: underline;
-    color: #ffffff;
-    text-align: center;
+.owl-nav {
+    display: none;
 }
-
-/*qwkadgsdgsdjhg dhsafkdsgfkgdskufgsduk jadfkgdkgfku*/

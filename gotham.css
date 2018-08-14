@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/gotham.eot');
+    src: url('fonts/gotham.eot') format('embedded-opentype'),
+         url('fonts/gotham.woff2') format('woff2'),
+         url('fonts/gotham.woff') format('woff'),
+         url('fonts/gotham.ttf') format('truetype'),
+         url('fonts/gotham.svg#gotham') format('svg');
+}
