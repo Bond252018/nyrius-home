@@ -157,5 +157,8 @@ form {
 }
 
 .owl-nav {
-    display: none;
+    color: red;
+margin-right: 100px;
+    font-size: 50px;
+
 }
